@@ -56,7 +56,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
     """Load and cache the dataset"""
-    csv_path = '/mnt/user-data/outputs/research_opportunities_merged.csv'
+    csv_path = r'D:\D1\WTF\Hakathon\Data Batches\research_opportunities_complete.csv'
     
     if not Path(csv_path).exists():
         return None, "Dataset not found. Please run merge_batches.py first!"
